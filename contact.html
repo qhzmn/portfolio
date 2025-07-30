@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <title>Contact</title>
+</head>
+<body>
+  <div id="header"></div>
+  <main>
+  <h1>Contact</h1>
+      
+  <div class="formulaire-container">
+  <h2>Contactez-moi</h2>
+  <hr>
+  <form class="form-group" id="contact-form">
+      <label for="name">Nom :</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Email :</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="message">Message :</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+      <button type="submit">Envoyer</button>
+    </form>
+    <div id="status"></div>
+  </div>
+  <div class="contact-container">
+    <h2>Autres moyens de contact</h2>
+    <hr>
+    <p>
+      <span><strong>Email :</strong> <a href="mailto:quentin.hazemann@viacesi.fr">quentin.hazemann@viacesi.fr</a></span><br>
+      <span><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/quentin-hazemann" target="_blank">linkedin.com/in/quentin-hazemann</a></span><br>
+      <span><strong>GitHub :</strong> <a href="https://github.com/qhzmn" target="_blank">github.com/qhzmn</a></span><br>
+      </p>
+  </div>
+
+      
+      
+  </main>
+  <div id="footer"></div>
+
+  <script src="assets/js/base.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="assets/js/email.js" defer></script>
+</body>
+</html>

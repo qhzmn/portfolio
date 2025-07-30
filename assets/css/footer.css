@@ -1,0 +1,11 @@
+footer{
+    background-color: black;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+p, a{
+    color: white;
+
+}
+
