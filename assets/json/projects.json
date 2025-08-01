@@ -1,0 +1,99 @@
+{
+  "projects": [
+    {
+      "id": "AES-ChiffrementDechiffrement",
+      "name": "AES-ChiffrementDechiffrement",
+      "description": "Programme Python qui permet de chiffrer et déchiffrer des fichiers à l'aide de l'algorithme AES. Il utilise le mot de passe de l'utilisateur pour dériver une clé AES via PBKDF2-HMAC-SHA256.",
+      "languages": [
+        "HTML",
+        "TeX",
+        "Python"
+      ],
+      "url": "https://github.com/qhzmn/AES-ChiffrementDechiffrement",
+      "readme": "AES-ChiffrementDechiffrement"
+    },
+    {
+      "id": "BackupApp",
+      "name": "BackupApp",
+      "description": "",
+      "languages": [
+        "Python"
+      ],
+      "url": "https://github.com/qhzmn/BackupApp",
+      "readme": "BackupApp"
+    },
+    {
+      "id": "game-of-life",
+      "name": "game-of-life",
+      "description": "Le jeu de la vie",
+      "languages": [
+        "C++"
+      ],
+      "url": "https://github.com/qhzmn/game-of-life",
+      "readme": "game-of-life"
+    },
+    {
+      "id": "gestion-rdv-commercants",
+      "name": "gestion-rdv-commercants",
+      "description": "Site web en html, css, js, php afin de gérer des rendez-vous professionnels.",
+      "languages": [
+        "PHP",
+        "Twig",
+        "CSS",
+        "JavaScript"
+      ],
+      "url": "https://github.com/qhzmn/gestion-rdv-commercants",
+      "readme": "gestion-rdv-commercants"
+    },
+    {
+      "id": "portfolio",
+      "name": "portfolio",
+      "description": "Ce site est un portfolio personnel. Il présente mes projets, compétences et expériences en informatique.",
+      "languages": [
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "url": "https://github.com/qhzmn/portfolio",
+      "readme": "portfolio"
+    },
+    {
+      "id": "Projet-WorldwideWeatherWatcher",
+      "name": "Projet-WorldwideWeatherWatcher",
+      "description": "Worldwide Weather Watcher 🌍",
+      "languages": [
+        "C++"
+      ],
+      "url": "https://github.com/qhzmn/Projet-WorldwideWeatherWatcher",
+      "readme": "Projet-WorldwideWeatherWatcher"
+    },
+    {
+      "id": "Sudoku",
+      "name": "Sudoku",
+      "description": "Sudoku en python",
+      "languages": [
+        "Python"
+      ],
+      "url": "https://github.com/qhzmn/Sudoku",
+      "readme": "Sudoku"
+    }
+  ],
+  "categories": {
+    "web": [
+      "gestion-rdv-commercants",
+      "portfolio"
+    ],
+    "methode": [
+      "gestion-rdv-commercants"
+    ],
+    "reseaux": [],
+    "dev": [
+      "AES-ChiffrementDechiffrement",
+      "BackupApp",
+      "game-of-life",
+      "gestion-rdv-commercants",
+      "Projet-WorldwideWeatherWatcher",
+      "Sudoku"
+    ]
+  }
+}
