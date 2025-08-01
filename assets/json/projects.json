@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": "calendrier-coiffeuse",
+      "name": "calendrier-coiffeuse",
+      "description": "Site personnel de présentation avec une page projets interactive.",
+      "languages": ["HTML", "CSS", "JavaScript"],
+      "url": "https://github.com/qhzmn/calendrier-coiffeuse",
+      "readme": "calendrier-coiffeuse"
+    },
+    {
+      "id": "blog-tech",
+      "name": "calendrier-coiffeuse",
+      "description": "Blog technique avec gestion des articles, commentaires et base de données.",
+      "languages": ["PHP", "SQL", "JavaScript"],
+      "url": "https://github.com/qhzmn/calendrier-coiffeuse",
+      "readme": "calendrier-coiffeuse"
+    },
+    {
+      "id": "kanban-board",
+      "name": "Kanban Board",
+      "description": "Mini gestionnaire de tâches en méthode Kanban.",
+      "languages": ["JavaScript", "HTML", "CSS"],
+      "url": "https://github.com/qhzmn/calendrier-coiffeuse",
+      "readme": "calendrier-coiffeuse"
+    },
+    {
+      "id": "analyse-trafic",
+      "name": "Analyse de trafic",
+      "description": "Script Python pour analyser les paquets réseaux (TCP/IP) avec Scapy.",
+      "languages": ["Python"],
+      "url": "https://github.com/qhzmn/calendrier-coiffeuse",
+      "readme": "calendrier-coiffeuse"
+    }
+  ],
+  "categories": {
+    "web": ["calendrier-coiffeuse", "blog-tech"],
+    "methodes": ["kanban-board", "calendrier-coiffeuse"],
+    "reseaux": ["analyse-trafic"],
+    "dev":["blog-tech"]
+  }
+}

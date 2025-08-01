@@ -58,9 +58,10 @@ h1 {
   margin: 10px 0;
 }
 
-.cv-container a button, .button-style, button[type="submit"]  {
+.cv-container a button, .button-project, .button-project-readme, button[type="submit"]  {
   
   padding: 10px 20px;
+  text-decoration: none;
   font-size: 1rem;
   color: #005f87;
   background-color: rgb(255, 255, 255);
@@ -71,7 +72,7 @@ h1 {
   transition: all 0.3s ease; 
 }
 
-.cv-container a button:hover, .button-style:hover, button[type="submit"]:hover {
+.cv-container a button:hover, .button-project:hover, .button-project-readme:hover, .button[type="submit"]:hover {
   border-radius: 25px;    
   transition: all 0.3s ease; 
   background-color: #005f87;
@@ -109,7 +110,7 @@ h1 {
 
 /*---projects.html---*/
 
-.repo a {
+.repo h2 a {
   color: #000000;
   text-decoration: none;
 }
@@ -119,8 +120,9 @@ h1 {
   color: black;
 }
 
-.repo h2{
-    color: black;
+.button a{
+  text-decoration: none;
+    color: rgb(221, 126, 126);
 }
 
 
