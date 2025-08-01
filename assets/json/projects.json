@@ -1,42 +1,100 @@
 {
   "projects": [
     {
-      "id": "calendrier-coiffeuse",
-      "name": "calendrier-coiffeuse",
-      "description": "Site personnel de présentation avec une page projets interactive.",
-      "languages": ["HTML", "CSS", "JavaScript"],
-      "url": "https://github.com/qhzmn/calendrier-coiffeuse",
-      "readme": "calendrier-coiffeuse"
+      "id": "AES-ChiffrementDechiffrement",
+      "name": "AES-ChiffrementDechiffrement",
+      "description": "Programme Python qui permet de chiffrer et déchiffrer des fichiers à l'aide de l'algorithme AES. Il utilise le mot de passe de l'utilisateur pour dériver une clé AES via PBKDF2-HMAC-SHA256.",
+      "languages": [
+        "Python"
+      ],
+      "url": "https://github.com/qhzmn/AES-ChiffrementDechiffrement",
+      "readme": "AES-ChiffrementDechiffrement"
     },
     {
-      "id": "blog-tech",
-      "name": "calendrier-coiffeuse",
-      "description": "Blog technique avec gestion des articles, commentaires et base de données.",
-      "languages": ["PHP", "SQL", "JavaScript"],
-      "url": "https://github.com/qhzmn/calendrier-coiffeuse",
-      "readme": "calendrier-coiffeuse"
+      "id": "BackupApp",
+      "name": "BackupApp",
+      "description": "",
+      "languages": [
+        "Python"
+      ],
+      "url": "https://github.com/qhzmn/BackupApp",
+      "readme": "BackupApp"
     },
     {
-      "id": "kanban-board",
-      "name": "Kanban Board",
-      "description": "Mini gestionnaire de tâches en méthode Kanban.",
-      "languages": ["JavaScript", "HTML", "CSS"],
-      "url": "https://github.com/qhzmn/calendrier-coiffeuse",
-      "readme": "calendrier-coiffeuse"
+      "id": "game-of-life",
+      "name": "game-of-life",
+      "description": "Le jeu de la vie",
+      "languages": [
+        "C++"
+      ],
+      "url": "https://github.com/qhzmn/game-of-life",
+      "readme": "game-of-life"
     },
     {
-      "id": "analyse-trafic",
-      "name": "Analyse de trafic",
-      "description": "Script Python pour analyser les paquets réseaux (TCP/IP) avec Scapy.",
-      "languages": ["Python"],
-      "url": "https://github.com/qhzmn/calendrier-coiffeuse",
-      "readme": "calendrier-coiffeuse"
+      "id": "gestion-rdv-commercants",
+      "name": "gestion-rdv-commercants",
+      "description": "Site web en html, css, js, php afin de gérer des rendez-vous professionnels.",
+      "languages": [
+        "PHP",
+        "Twig",
+        "CSS",
+        "JavaScript",
+        "HTML",
+        "SQL"
+      ],
+      "url": "https://github.com/qhzmn/gestion-rdv-commercants",
+      "readme": "gestion-rdv-commercants"
+    },
+    {
+      "id": "portfolio",
+      "name": "portfolio",
+      "description": "Ce site est un portfolio personnel. Il présente mes projets, compétences et expériences en informatique.",
+      "languages": [
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "url": "https://github.com/qhzmn/portfolio",
+      "readme": "portfolio"
+    },
+    {
+      "id": "Projet-WorldwideWeatherWatcher",
+      "name": "Projet-WorldwideWeatherWatcher",
+      "description": "Worldwide Weather Watcher 🌍",
+      "languages": [
+        "Arduino (Basé sur C/C++)"
+      ],
+      "url": "https://github.com/qhzmn/Projet-WorldwideWeatherWatcher",
+      "readme": "Projet-WorldwideWeatherWatcher"
+    },
+    {
+      "id": "Sudoku",
+      "name": "Sudoku",
+      "description": "Sudoku en python",
+      "languages": [
+        "Python"
+      ],
+      "url": "https://github.com/qhzmn/Sudoku",
+      "readme": "Sudoku"
     }
   ],
   "categories": {
-    "web": ["calendrier-coiffeuse", "blog-tech"],
-    "methodes": ["kanban-board", "calendrier-coiffeuse"],
-    "reseaux": ["analyse-trafic"],
-    "dev":["blog-tech"]
+    "web": [
+      "gestion-rdv-commercants",
+      "portfolio"
+    ],
+    "methode": [
+      "gestion-rdv-commercants",
+      "game-of-life"
+    ],
+    "reseaux": [],
+    "dev": [
+      "AES-ChiffrementDechiffrement",
+      "BackupApp",
+      "game-of-life",
+      "gestion-rdv-commercants",
+      "Projet-WorldwideWeatherWatcher",
+      "Sudoku"
+    ]
   }
 }
