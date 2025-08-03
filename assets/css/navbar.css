@@ -55,3 +55,70 @@ header {
   background-color: #ff6700;
 }
 
+#openBtn, #closeBtn {
+    
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  padding: 0 1rem;
+  height: 60px; 
+  background-color: #333;
+}
+
+    #openBtn {
+        display: block;
+    }
+    nav .nav-links {
+        position: fixed;
+        top: 0;
+        list-style: none;
+        right: 0;
+        height: 100vh;
+        width: 250px;
+        background-color: rgb(29, 29, 29);
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 60px;
+        padding-left: 20px;
+        box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+        transform: translateX(100%);
+        z-index: 1000;
+        color: #333;
+        gap: 0; 
+        margin-left: 0;
+        margin-right: 0;
+    }
+    nav .nav-links.active {
+        transform: translateX(0);
+    }
+    nav .nav-links li {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    nav .nav-links li a {
+        color: #ffffff;
+        font-weight: 600;
+    }
+    #closeBtn {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        color: #ff0000;
+        font-size: 28px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
