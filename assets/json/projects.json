@@ -5,8 +5,6 @@
       "name": "AES-ChiffrementDechiffrement",
       "description": "Programme Python qui permet de chiffrer et déchiffrer des fichiers à l'aide de l'algorithme AES. Il utilise le mot de passe de l'utilisateur pour dériver une clé AES via PBKDF2-HMAC-SHA256.",
       "languages": [
-        "HTML",
-        "TeX",
         "Python"
       ],
       "url": "https://github.com/qhzmn/AES-ChiffrementDechiffrement",
@@ -40,7 +38,9 @@
         "PHP",
         "Twig",
         "CSS",
-        "JavaScript"
+        "JavaScript",
+        "HTML",
+        "SQL"
       ],
       "url": "https://github.com/qhzmn/gestion-rdv-commercants",
       "readme": "gestion-rdv-commercants"
@@ -62,7 +62,7 @@
       "name": "Projet-WorldwideWeatherWatcher",
       "description": "Worldwide Weather Watcher 🌍",
       "languages": [
-        "C++"
+        "Arduino (basé sur C/C++)"
       ],
       "url": "https://github.com/qhzmn/Projet-WorldwideWeatherWatcher",
       "readme": "Projet-WorldwideWeatherWatcher"

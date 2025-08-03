@@ -11,11 +11,12 @@ h1 {
   margin-bottom: 2rem;
 }
 
+
 .cv-container, .suivre-container, .formulaire-container, .repo, .container-competence, .container-ml, .about-container, .school-container, .contact-container{
   text-align: center;
   margin: 40px auto;
   padding: 10px;
-  max-width: 70%;
+  max-width: 80%;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -59,7 +60,8 @@ h1 {
 }
 
 .cv-container a button, .button-project, .button-project-readme, button[type="submit"]  {
-  
+  display: inline-block;
+   margin-bottom: 10px;
   padding: 10px 20px;
   text-decoration: none;
   font-size: 1rem;

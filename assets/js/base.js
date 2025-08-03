@@ -40,9 +40,29 @@ async function initializePage() {
         // Charger le JS de la navbar (après que le HTML soit injecté)
         await loadScript("assets/js/navbar.js");
 
+        // Forcer le mode clair après chargement
+        forceLightMode();
+
     } catch (error) {
         console.error("Erreur lors du chargement :", error);
     }
+}
+
+// Fonction pour forcer le mode clair
+function forceLightMode() {
+    // Appliquer styles en mode clair
+    document.documentElement.style.backgroundColor = 'white';
+    document.documentElement.style.color = 'black';
+
+    // Supprimer la classe 'dark' si elle est appliquée
+    document.documentElement.classList.remove('dark');
+    
+    // Optionnel: Surveiller les changements de préférences système et réinitialiser
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+        document.documentElement.style.backgroundColor = 'white';
+        document.documentElement.style.color = 'black';
+        document.documentElement.classList.remove('dark');
+    });
 }
 
 // Lancer l'initialisation
