@@ -1,14 +1,19 @@
-const modal = document.getElementById('modal');
-const modalDesc = document.getElementById('modalDesc');
-const modalClose = document.getElementById('modalClose');
+// Dans skillmodal.js
+document.addEventListener("DOMContentLoaded", () => {
 
-document.querySelectorAll('.skill-btn').forEach(button => {
-  button.addEventListener('click', () => {
+const skillsAll = document.getElementById('skills-all'); // Ou tout autre conteneur parent
+
+skillsAll.addEventListener('click', (event) => {
+    console.log("btn-clic");
+  // Vérifie si l'élément cliqué est un bouton avec la classe 'skill-btn'
+  if (event.target.classList.contains('skill-btn')) {
+    
+    const button = event.target;
     const desc = button.getAttribute('data-desc');
     modalDesc.textContent = desc;
     modal.setAttribute('aria-hidden', 'false');
     modalClose.focus();
-  });
+  }
 });
 
 modalClose.addEventListener('click', () => {
@@ -26,3 +31,7 @@ document.addEventListener('keydown', (e) => {
     modal.setAttribute('aria-hidden', 'true');
   }
 });
+
+
+});
+

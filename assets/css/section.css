@@ -138,7 +138,7 @@ h1 {
     color: #000;
 }
 
-#projects-web, #projects-dev, #projects-methodes, #projects-reseaux {
+.projects-list {
   list-style: none;
   padding: 0;
   margin: 0; 
@@ -149,7 +149,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-#projects-web li, #projects-dev li, #projects-methodes li, #projects-reseaux li {
+.projects-list li {
   background: #f9f9f9;
   padding: 10px 15px;
   border-radius: 6px;
@@ -159,18 +159,18 @@ h1 {
   max-width: 250px;
 }
 
-#projects-web li a, #projects-dev li a, #projects-methodes li a, #projects-reseaux li a {
+.projects-list li a {
   text-decoration: none;
   color: #005f87;
   font-weight: 600;
   display: block;
 }
 
-#projects-web li:hover, #projects-dev li:hover, #projects-methodes li:hover, #projects-reseaux li:hover {
+.projects-list li:hover {
   background: #e6f0ff;
 }
 
-#projects-web li a:hover, #projects-dev li a:hover, #projects-methodes li a:hover, #projects-reseaux li a:hover {
+.projects-list li a:hover {
   text-decoration: underline;
 }
 
