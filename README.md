@@ -1,82 +1,83 @@
+[Français 🇫🇷](README.fr.md)
 
-# Site Vitrine Projets GitHub
+# My portfolio, GitHub project
 
-Ce projet est un site web vitrine développé en HTML, CSS et JavaScript qui présente mes projets publics GitHub ainsi que mes compétences acquises.  
-Le site se compose de deux parties :
+This project is a showcase website developed in HTML, CSS, and JavaScript that presents my public GitHub projects and the skills I have acquired.  
+This project consists of two parts:
 
-- **Partie 1** : un script JavaScript à utiliser en local, qui récupère la liste des dépôts GitHub d’un utilisateur et stocke leurs informations dans un fichier JSON.
-- **Partie 2** : une interface web qui utilise ce fichier JSON pour afficher les détails des projets et permettre la consultation du README de chaque projet.
+- **Part 1** : a JavaScript script for local use, which retrieves a user's list of GitHub repositories and stores their information in a JSON file.
+- **Part 2** : a web interface that uses this JSON file to display project details and allow users to view each project's README file.
 
 ---
 
-## Partie 1 — Script de récupération des projets
+## Part 1 — Project recovery script
 
-### ✨ Fonctionnalités
+### ✨ Functionalities
 
-- Récupère les dépôts GitHub d’un utilisateur via l’API GitHub.
-- Récupère les informations détaillées de chaque dépôt.
-- Met à jour un fichier JSON local, en demandant à l’utilisateur s’il souhaite remplacer les projets existants (pour préserver d’éventuelles modifications manuelles).
-- Permet d’associer des catégories aux projets.
+- Retrieves a user's GitHub repositories via the GitHub API.
+- Retrieves detailed information about each deposit.
+- Updates a local JSON file, asking the user if they want to replace existing projects (to preserve any manual changes).
+- Allows you to associate categories with projects.
 
-### ⚙️ Installation et utilisation
+### ⚙️ Installation and use
 
-1. Cloner ce dépôt :
+1. Clone this repository :
 
 ```bash
-git clone https://github.com/ton-utilisateur/ton-repo.git
-cd ton-repo
+git clone https://github.com/your_username/your-repo.git
+cd your-repo
 ```
 
-2. Installer les dépendances, node per met d'exécuter un script JavaScript directement depuis un invite de commandes
+2. Install dependencies. Node allows you to run a JavaScript script directly from a command prompt.
 
 ```bash
 node install
 ```
 
-3. Modifier & exécuter le script JavaScript
-Modifier le script `update_projects_example.js/` pour renseigner ton token GitHub et ton nom d’utilisateur.
+3. Edit & run the JavaScript script
+Edit the script `update_projects_example.js/` to enter your GitHub token and username.
 
-4. Exécuter le script
+4. Run the script
 ```bash
-cd chemain-vers-script
+cd path-to-script
 node update_projects.js
 ```
-5. Suivre les instructions dans la console pour :
-- Choisir de remplacer ou ignorer les projets déjà existants.
-- Associer des catégories aux projets.
-Le fichier `projects.json/` sera mis à jour dans le dossier `json//`.
+5. Follow the instructions in the console to:
+- Choose to replace or ignore existing projects.
+- Associate categories with projects.
+- The `projects.json/` file will be updated in the `json//` folder.
 
 ---
 
-## Partie 2 — Site web vitrine## Fonctionnalités
+## Part 2 — Showcase website
 
-### ✨ Fonctionnalités
-- Affiche les projets avec nom, description et langage principal.
-- Lien direct vers chaque projet sur GitHub.
-- Affichage du README de chaque projet dans une fenêtre modale sans recharger la page.
-- Navigation simple avec navbar et footer.
+### ✨ Functionalities
+- Displays projects with name, description, and primary language.
+- Direct link to each project on GitHub.
+- Displays each project's README in a modal window without reloading the page.
+- Simple navigation with navbar and footer.
 
-### ⚙️ Installation et déploiement
+### ⚙️ Installation and deployment
 
-1. Cloner ou télécharger le dépôt.
-2. Ouvrir `index.html` localement via un serveur (ex. extension Live Server de VSCode) pour éviter les erreurs CORS.
-3. Déployer sur GitHub Pages ou tout autre hébergeur de sites statiques.
+1. Clone or download the repository.
+2. Open `index.html` locally via a server (e.g. VSCode's Live Server extension) to avoid CORS errors.
+3. Deploy to GitHub Pages or any other static site host.
 
 ---
 
-### 💬 Remarques importantes
+### 💬 Important notes
 
-- L’API GitHub limite le nombre de requêtes par heure.
-- Pour éviter les erreurs 403 (limite dépassée), il est conseillé d’utiliser un token GitHub dans les appels API.
-- Ne jamais exposer un token privé dans un site public sans backend sécurisé.
+- The GitHub API limits the number of requests per hour.
+- To avoid 403 errors (limit exceeded), it is advisable to use a GitHub token in API calls.
+- Never expose a private token on a public website without a secure backend.
   
-C’est pour cette raison que j’ai divisé le site en deux parties :
-1. une partie locale qui utilise le token GitHub pour récupérer et mettre à jour les données,
-2. une partie en ligne qui utilise uniquement le fichier JSON généré, sans exposer le token.
+That's why I divided the site into two parts:
+1. a local part that uses the GitHub token to retrieve and update data,
+2. an online part that only uses the generated JSON file, without exposing the token.
 
 ---
 
-### 🛠️ Technologies utilisées
+### 🛠️ Technologies used
 
 - HTML5, CSS3 (Flexbox, transitions)
 - JavaScript (fetch API, manipulation DOM)
@@ -84,22 +85,20 @@ C’est pour cette raison que j’ai divisé le site en deux parties :
 
 ---
 
-### 🔩 Améliorations possibles
+### 🔩 Possible improvements
 
-- Pagination des projets.
-- Mise en cache locale (localStorage).
-- Barre de recherche par nom de projet.
-- Support multilingue.
+- Project pagination.
+- Local caching (localStorage).
+- Search bar by project name.
 
 ---
 
 ### 🪪 Licence
 
-Ce projet est sous licence MIT — voir le fichier [LICENSE](LICENSE) pour plus de détails.
+This project is licensed under the MIT licence — see the [LICENSE](LICENSE) file for more details.
 
 ---
 
 ### 📧 Contact
 
-Pour toute question ou suggestion, contactez-moi via [mon profil GitHub](https://github.com/qhzmn).
-
+If you have any questions or suggestions, please contact me via [mon profil GitHub](https://github.com/qhzmn).
