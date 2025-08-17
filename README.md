@@ -1,4 +1,4 @@
-[English 🇬🇧](README.md)
+[Français 🇫🇷](README.fr.md)
 
 # My portfolio, GitHub project
 
