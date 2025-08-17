@@ -3,4 +3,3 @@ node_modules/
 *.log
 
 assets/js/update_projects.js
-assets/js/update_projects_example.js
