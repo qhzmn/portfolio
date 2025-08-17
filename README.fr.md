@@ -28,7 +28,7 @@ git clone https://github.com/ton-utilisateur/ton-repo.git
 cd ton-repo
 ```
 
-2. Installer les dépendances, node per met d'exécuter un script JavaScript directement depuis un invite de commandes
+2. Installer les dépendances, node permet d'exécuter un script JavaScript directement depuis un invite de commandes
 
 ```bash
 node install
