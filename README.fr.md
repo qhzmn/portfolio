@@ -1,4 +1,4 @@
-[Français 🇫🇷](README.fr.md)
+[English 🇬🇧](README.md)
 
 # Site Vitrine Projets GitHub
 
