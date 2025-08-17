@@ -24,8 +24,8 @@ Le site se compose de deux parties :
 1. Cloner ce dépôt :
 
 ```bash
-git clone https://github.com/ton-utilisateur/ton-repo.git
-cd ton-repo
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
 ```
 
 2. Installer les dépendances, node permet d'exécuter un script JavaScript directement depuis un invite de commandes
@@ -39,7 +39,7 @@ Modifier le script `update_projects_example.js/` pour renseigner ton token GitHu
 
 4. Exécuter le script
 ```bash
-cd chemain-vers-script
+cd path-to-script
 node update_projects.js
 ```
 5. Suivre les instructions dans la console pour :
@@ -49,7 +49,7 @@ Le fichier `projects.json/` sera mis à jour dans le dossier `json//`.
 
 ---
 
-## Partie 2 — Site web vitrine## Fonctionnalités
+## Partie 2 — Site web vitrine
 
 ### ✨ Fonctionnalités
 - Affiche les projets avec nom, description et langage principal.
@@ -90,7 +90,6 @@ C’est pour cette raison que j’ai divisé le site en deux parties :
 - Pagination des projets.
 - Mise en cache locale (localStorage).
 - Barre de recherche par nom de projet.
-- Support multilingue.
 
 ---
 
