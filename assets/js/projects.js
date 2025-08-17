@@ -1,5 +1,10 @@
-document.addEventListener("DOMContentLoaded", () => {
-    fetch("assets/json/projects.json")
+function loadProjects(lang) {
+
+    let file = lang === "en" 
+    ? "assets/json/dataEn.json" 
+    : "assets/json/dataFr.json";
+
+    fetch(file)
     .then(res => res.json())
     .then(data => {
         const projets = data.projects;
@@ -8,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.error("Le conteneur projects-all est introuvable dans le HTML.");
         return;
         }
+        container.innerHTML = ""; // On vide avant de remplir
         projets.forEach(projet => {
             const div = document.createElement("div");
             div.classList.add("repo");
@@ -16,9 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <h2><a href="${projet.url}" target="_blank">${projet.name}</a></h2>
             <hr>
             <p>${projet.description || "Aucune description"}</p>
-            <p><strong>Langages :</strong> ${projet.languages.join(", ") || "Inconnu"}</p>
-            <a href="${projet.url}" target="_blank" rel="noopener" class="button-project">Voir sur GitHub</a>
-            <button class="button-project-readme" data-repo="${projet.readme}">Voir README</button>
+            <p><strong data-i18n="languages"></strong>${projet.languages.join(', ') || 'Inconnu'}</p>
+            <a href="${projet.url}" target="_blank" rel="noopener" class="button-project" data-i18n="button-github"></a>
+            <button class="button-project-readme" data-repo="${projet.readme}" data-i18n="button-readme"></button>
             `;
             container.appendChild(div);
         });
@@ -36,7 +42,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  loadProjects(localStorage.getItem('mainLanguage') || 'fr');
 });
+
+// Écoute un événement envoyé par language.js
+window.addEventListener("languageChange", (e) => {
+  loadProjects(e.detail);
+});
+
 
 
 

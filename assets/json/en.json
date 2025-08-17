@@ -1,0 +1,94 @@
+{
+    "navbar" : {
+        "home" : "Home",
+        "about" : "About",
+        "projects" : "Projects",
+        "skills" : "Skills",
+        "contact" : "Contact"
+    },
+    "index" : {
+        "presentation": {
+            "title": "Quentin HAZEMANN",
+            "subtitle": "Second-year student in an integrated preparatory programme",
+            "specialty": "Speciality : IT"
+        },
+        "homePageTitle": "Home page",
+        "resume": {
+            "title": "Resume",
+            "downloadButton": "Download the PDF"
+        },
+            "follow": {
+            "title": "Follow me"
+        }
+    },
+    "about" : {
+        "aboutPageTitle" : "About",
+        "aboutme" : {
+        "title": "About me",
+        "paragraph1": "My name is <strong>Quentin Hazemann</strong>, I'm a student at <strong>CESI</strong>, currently in the first year of <strong>IT engineering  </strong> programme. Passionate about computer science, I enjoy tackling diverse projects in web développent, embedded systems, and networking. I love applying my skills, and exploring new technologies while solving real-world problems both independently and with a team.",
+        "paragraph2": "My academic background has provided me with a strong skillset in various areas, including software development, agile project management, and IT networking. I've also obtained certifications such as : <strong>Cisco CCNA1</strong>.",
+        "paragraph3": "Curious, autonomous, and rigorous, I am looking to further develop my skills by contributing to projects that allow me to learn every day. My professional goal is to become a versatile developer."
+        },
+        "aboutschool" : {
+        "title": "About my school",
+        "paragraph1": "I am currently pursuing my engineering degree at <strong>CESI</strong>, a higher education institution recognised in France for its excellent training programmes in the fields of computer science, engineering and digital technology.",
+        "paragraph2": "At CESI, the focus is on project-based learning, innovative teaching, and getting us ready for the professional world. We spend a lot of time on internships and collaborative projects. The school trains engineers who are both technically skilled and able to adapt to the current challenges of the digital world.",
+        "paragraph3": "Thanks to this training, I am developing solid skills in software development, IT architecture, project management, and methodologies. The school also values commitment, professional ethics, and autonomy, qualities that I strive to apply in all my projects.",
+        "paragraph4": "For more information : <a href='https://www.cesi.fr/en' target='_blank' rel='noopener'>https://www.cesi.fr/en</a>" 
+        }  
+    },
+    "projects" : {
+        "projectsPageTitle" : "My GitHub projects",
+        "languages" : "Languages : ",
+
+        "button-github" : "See on GitHub",
+        "button-readme" : "See README"
+    },
+    "skills" : {
+        "skillsPageTitle" : "My skills",
+        "presentation" : "Here is an overview of my main skills, acquired through my professional experience, personal projects and training.",
+        "skills-subtitle" : "Skills-related projects",
+        "certifications-subtitle" : "Certifications"
+
+    },
+    "contact" : {
+        "title" : "Contact",
+        "form" : {
+        "title" : "Contact me",
+        "name" : "Name :",
+        "email" : "Email :",
+        "message" : "Message :",
+        "submit" : "Submit   "
+        },     
+        "other" : {
+        "title" : "Other contact methods"
+        }
+    },
+    "legal" : {
+        "legalPageTitle" : "Legal notices",
+        "publisher" : {
+        "title" : "Publisher",
+        "lastName" : "<strong>Last name :</strong> HAZEMANN",
+        "firstName" : "<strong>First name :</strong> Quentin",
+        "email" : "<strong>Email : </strong><a href='mailto:quentin.hazemann@viacesi.fr'>quentin.hazemann@viacesi.fr</a>"
+        },
+        "host" : {
+        "title" : "Host",
+        "name" : "<strong>Host name :</strong> GitHub, Inc.",
+        "address" : "<strong>Address :</strong> 88 Colin P. Kelly Jr St, San Francisco, CA 94107, USA",
+        "webSite" : "<strong>Website web :</strong> <a href='https://pages.github.com' target='_blank'>https://pages.github.com</a>"
+        },
+        "property" : {
+        "title" : "Intellectual Property",
+        "paragraph1" : "All content on this website (text, images, logos, etc.) is protected by copyright and may not be reproduced without prior authorisation"
+        },
+        "data" : {
+        "title" : "Personal information",
+        "paragraph1" : "No personal data is stored."
+        }
+    },
+    "footer" : {
+        "right": "&copy; 2025 Quentin HAZEMANN. All rights reserved.",
+        "legal": "Legal notices"
+    }
+}

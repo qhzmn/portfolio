@@ -65,6 +65,40 @@ header {
     cursor: pointer;
 }
 
+.lang-switch {
+  text-align: right;
+  margin: 20px;
+}
+.lang-switch button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px 0 0 20px;
+  margin-left: -5px;
+  border: 2px solid transparent;
+  
+
+}
+.lang-switch button:hover{
+    border-color: #ff6700;
+
+}
+.lang-switch button:last-child {
+  border-radius: 0 20px 20px 0;
+}
+
+.lang-switch  button.active {
+  background-color: #ff6700;
+}
+#lang-fr img, #lang-en img {
+  width: 20px; /* Taille du drapeau */
+  height: 15px;
+  margin-right: 5px; /* Marge pour séparer le drapeau du texte */
+  vertical-align: middle;
+}
+
 @media (max-width: 768px) {
     .navbar {
   display: flex;

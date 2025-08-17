@@ -1,231 +1,100 @@
 {
-    "projects": [
-        {
-        "id": "AES-ChiffrementDechiffrement",
-        "name": "AES-ChiffrementDechiffrement",
-        "description": "Programme Python qui permet de chiffrer et déchiffrer des fichiers à l'aide de l'algorithme AES. Il utilise le mot de passe de l'utilisateur pour dériver une clé AES via PBKDF2-HMAC-SHA256.",
-        "languages": [
-            "Python"
-        ],
-        "url": "https://github.com/qhzmn/AES-ChiffrementDechiffrement",
-        "readme": "AES-ChiffrementDechiffrement"
-        },
-        {
-        "id": "BackupApp",
-        "name": "BackupApp",
-        "description": "",
-        "languages": [
-            "Python"
-        ],
-        "url": "https://github.com/qhzmn/BackupApp",
-        "readme": "BackupApp"
-        },
-        {
-        "id": "game-of-life",
-        "name": "game-of-life",
-        "description": "Le jeu de la vie",
-        "languages": [
-            "C++"
-        ],
-        "url": "https://github.com/qhzmn/game-of-life",
-        "readme": "game-of-life"
-        },
-        {
-        "id": "gestion-rdv-commercants",
-        "name": "gestion-rdv-commercants",
-        "description": "Site web en html, css, js, php afin de gérer des rendez-vous professionnels.",
-        "languages": [
-            "PHP",
-            "Twig",
-            "CSS",
-            "JavaScript",
-            "HTML",
-            "SQL"
-        ],
-        "url": "https://github.com/qhzmn/gestion-rdv-commercants",
-        "readme": "gestion-rdv-commercants"
-        },
-        {
-        "id": "portfolio",
-        "name": "portfolio",
-        "description": "Ce site est un portfolio personnel. Il présente mes projets, compétences et expériences en informatique.",
-        "languages": [
-            "HTML",
-            "JavaScript",
-            "CSS"
-        ],
-        "url": "https://github.com/qhzmn/portfolio",
-        "readme": "portfolio"
-        },
-        {
-        "id": "Projet-WorldwideWeatherWatcher",
-        "name": "Projet-WorldwideWeatherWatcher",
-        "description": "Worldwide Weather Watcher 🌍",
-        "languages": [
-            "Arduino",
-            "C++"
-        ],
-        "url": "https://github.com/qhzmn/Projet-WorldwideWeatherWatcher",
-        "readme": "Projet-WorldwideWeatherWatcher"
-        },
-        {
-        "id": "Sudoku",
-        "name": "Sudoku",
-        "description": "Sudoku en python",
-        "languages": [
-            "Python"
-        ],
-        "url": "https://github.com/qhzmn/Sudoku",
-        "readme": "Sudoku"
-        }
+  "projects": [
+    {
+      "id": "aes-encryption-decryption",
+      "name": "aes-encryption-decryption",
+      "description": "Programme Python qui permet de chiffrer et déchiffrer des fichiers à l'aide de l'algorithme AES. Il utilise le mot de passe de l'utilisateur pour dériver une clé AES via PBKDF2-HMAC-SHA256.",
+      "languages": [
+        "HTML",
+        "TeX",
+        "Python"
+      ],
+      "url": "https://github.com/qhzmn/aes-encryption-decryption",
+      "readme": "aes-encryption-decryption"
+    },
+    {
+      "id": "commercial-appointment-manager",
+      "name": "commercial-appointment-manager",
+      "description": "Ce site web en html, css, js, php est un outil de gestion de rendez-vous conçu pour les professionnels indépendants. Bien que le projet utilise l'exemple d'un salon de coiffure, son architecture et ses fonctionnalités principales peuvent facilement être adaptées à d'autres métiers.",
+      "languages": [
+        "PHP",
+        "Twig",
+        "CSS",
+        "JavaScript"
+      ],
+      "url": "https://github.com/qhzmn/commercial-appointment-manager",
+      "readme": "commercial-appointment-manager"
+    },
+    {
+      "id": "game-of-life",
+      "name": "game-of-life",
+      "description": "Ce code est une implémentation en C++ du Jeu de la Vie de John Conway. Le projet, basé sur les principes de la programmation orientée objet (POO), permet de simuler l'évolution d'une population de cellules sur une grille.",
+      "languages": [
+        "C++"
+      ],
+      "url": "https://github.com/qhzmn/game-of-life",
+      "readme": "game-of-life"
+    },
+    {
+      "id": "incremental-backup-tool",
+      "name": "incremental-backup-tool",
+      "description": "Cette application de sauvegarde incrémentielle, développée en Python, permet de copier des fichiers/dossiers sources vers une destination. Cela permet d'automatiser le processus de sauvegarde et de conserver un historique dans un fichier Markdown.",
+      "languages": [
+        "Python"
+      ],
+      "url": "https://github.com/qhzmn/incremental-backup-tool",
+      "readme": "incremental-backup-tool"
+    },
+    {
+      "id": "portfolio",
+      "name": "portfolio",
+      "description": "Ce site est un portfolio personnel. Il présente mes projets, compétences et expériences en informatique.",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "url": "https://github.com/qhzmn/portfolio",
+      "readme": "portfolio"
+    },
+    {
+      "id": "sudoku-solver",
+      "name": "sudoku-solver",
+      "description": "Sudoku en python",
+      "languages": [
+        "Python"
+      ],
+      "url": "https://github.com/qhzmn/sudoku-solver",
+      "readme": "sudoku-solver"
+    },
+    {
+      "id": "worldwide-weather-watcher",
+      "name": "worldwide-weather-watcher",
+      "description": "Ce projet scolaire est une solution de surveillance météorologique pour l'Agence Internationale pour la Vigilance Météorologique. Il s'agit d'un système embarqué basé sur Arduino, conçu pour être installé sur des navires.",
+      "languages": [
+        "C++"
+      ],
+      "url": "https://github.com/qhzmn/worldwide-weather-watcher",
+      "readme": "worldwide-weather-watcher"
+    }
+  ],
+  "categories": {
+    "web": [
+      "commercial-appointment-manager",
+      "portfolio"
     ],
-
-
-
-    "skills": [
-        {
-        "category": "Développement Web",
-        "items": [
-            {
-            "name": "HTML",
-            "description": "HTML est le langage de base pour structurer les pages web.",
-            "rating": 4
-            },
-            {
-            "name": "CSS",
-            "description": "CSS permet de styliser et mettre en forme les pages web.",
-            "rating": 3
-            },
-            {
-            "name": "JavaScript",
-            "description": "JavaScript ajoute de l'interactivité et des fonctionnalités aux pages web.",
-            "rating": 3
-            },
-            {
-            "name": "PHP",
-            "description": "PHP est un langage côté serveur utilisé pour générer des pages dynamiques.",
-            "rating": 4
-            },
-            {
-            "name": "Twig",
-            "description": "Twig est un moteur de templates rapide et flexible pour PHP, souvent utilisé avec Symfony.",
-            "rating": 4
-            }
-        ],
-        "projects": [
-            "gestion-rdv-commercants",
-            "portfolio"
-        ],
-        "certifications": [
-        ]
-        },
-        {
-        "category": "Systèmes / Réseaux",
-        "items": [
-            {
-            "name": "Cisco Packet Tracer",
-            "description": "Cisco Packet Tracer est un outil de simulation réseau utilisé pour configurer et tester des topologies réseau virtuelles.",
-            "rating": 4
-            },
-            {
-            "name": "Commandes Unix",
-            "description": "Utilisation des commandes essentielles pour naviguer, manipuler des fichiers et gérer les processus dans un environnement Unix/Linux.",
-            "rating": 2
-            },
-            {
-            "name": "TCP/IP, DNS, DHCP",
-            "description": "Protocoles fondamentaux pour la communication réseau : TCP/IP pour le transport, DNS pour la résolution des noms, et DHCP pour l'attribution automatique d'adresses IP.",
-            "rating": 3
-            }
-        ],
-        "projects": [
-        ],
-        "certifications": [
-            {
-            "name": "Cisco CCNA1 – Introduction aux réseaux et concepts fondamentaux",
-            "year": 2025
-            }
-        ]
-        },
-        {
-        "category": "Programmation / Systèmes embarqué",
-        "items": [
-            {
-            "name": "Python",
-            "description": "Langage de programmation polyvalent, utilisé pour le développement web, l'automatisation, les analyses de données et l'intelligence artificielle.",
-            "rating": 4
-            },
-            {
-            "name": "SQL",
-            "description": "Langage de requête pour gérer et manipuler des bases de données relationnelles.",
-            "rating": 5
-            },
-            {
-            "name": "C / C++ / Arduino",
-            "description": "Langages de programmation bas niveau pour le développement système et embarqué, incluant la programmation Arduino.",
-            "rating": 3
-            },
-            {
-            "name": "Langage Assembleur",
-            "description": "Langage de bas niveau proche du code machine, utilisé pour la programmation système et l'optimisation.",
-            "rating": 2
-            },
-            {
-            "name": "Shell scripting (Bash, PowerShell)",
-            "description": "Automatisation de tâches et gestion système via scripts sous Unix (Bash) et Windows (PowerShell).",
-            "rating": 2
-            }
-        ],
-        "projects": [
-            "AES-ChiffrementDechiffrement",
-            "BackupApp",
-            "game-of-life",
-            "gestion-rdv-commercants",
-            "Projet-WorldwideWeatherWatcher",
-            "Sudoku"
-        ],
-        "certifications": [
-        ]
-        },
-        {
-        "category": "Méthodologies & Conecepts",
-        "items": [
-            {
-            "name": "Agile / Scrum / Kanban",
-            "description": "Méthodologies agiles pour gérer et optimiser les projets en équipe : Agile favorise l’adaptabilité et la collaboration, Scrum organise le travail en sprints, Kanban visualise et contrôle le flux des tâches.",
-            "rating": 3
-            },
-            {
-            "name": "UML (Unified Modeling Language)",
-            "description": "Utilisation du langage UML pour modéliser et documenter la structure et le comportement d’un système logiciel.",
-            "rating": 4
-            },
-            {
-            "name": "Architecture logicielle — MVC",
-            "description": "Conception d'applications selon le modèle MVC (Modèle-Vue-Contrôleur) pour séparer la logique métier, la présentation et le contrôle.",
-            "rating": 5
-            },
-            {
-            "name": "Paradigmes de programmation — orienté objet",
-            "description": "Compréhension des paradigmes comme la programmation orientée objet, avec utilisation de classes, héritage et encapsulation.",
-            "rating": 4
-            }
-        ],
-        "projects": [
-            "gestion-rdv-commercants"
-        ],
-        "certifications": [
-        ]
-        }
+    "methode": [
+      "commercial-appointment-manager"
+    ],
+    "reseaux": [],
+    "dev": [
+      "aes-encryption-decryption",
+      "commercial-appointment-manager",
+      "game-of-life",
+      "incremental-backup-tool",
+      "portfolio",
+      "sudoku-solver",
+      "worldwide-weather-watcher"
     ]
+  }
 }
-
-
-
-
-
-
-
-
-
-

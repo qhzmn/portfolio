@@ -39,6 +39,8 @@ async function initializePage() {
 
         // Charger le JS de la navbar (après que le HTML soit injecté)
         await loadScript("assets/js/navbar.js");
+        await loadScript("assets/js/language.js");
+
 
         // Forcer le mode clair après chargement
         forceLightMode();

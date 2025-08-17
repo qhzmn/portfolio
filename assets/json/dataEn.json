@@ -1,0 +1,231 @@
+{
+    "projects": [
+        {
+        "id": "aes-encryption-decryption",
+        "name": "aes-encryption-decryption",
+        "description": "Python program that allows you to encrypt and decrypt files using the AES algorithm. It uses the user's password to derive an AES key via PBKDF2-HMAC-SHA256.",
+        "languages": [
+            "Python"
+        ],
+        "url": "https://github.com/qhzmn/aes-encryption-decryption",
+        "readme": "aes-encryption-decryption"
+        },
+        {
+        "id": "incremental-backup-tool",
+        "name": "incremental-backup-tool",
+        "description": "This incremental backup application, developed in Python, allows you to copy source files/folders to a destination. This automates the backup process and keeps a history in a Markdown file.",
+        "languages": [
+            "Python"
+        ],
+        "url": "https://github.com/qhzmn/incremental-backup-tool",
+        "readme": "incremental-backup-tool"
+        },
+        {
+        "id": "game-of-life",
+        "name": "game-of-life",
+        "description": "This code  is a C++ implementation of John Conway's Game of Life. The project, based on the principles of object-oriented programming (OOP), simulates the evolution of a population of cells on a grid.",
+        "languages": [
+            "C++"
+        ],
+        "url": "https://github.com/qhzmn/game-of-life",
+        "readme": "game-of-life"
+        },
+        {
+        "id": "commercial-appointment-manager",
+        "name": "commercial-appointment-manager",
+        "description": "This website, built using HTML, CSS, JavaScript, and PHP, is an appointment management tool designed for independent professionals. Although the project uses a hair salon as an example, its architecture and main features can easily be adapted to other professions.",
+        "languages": [
+            "PHP",
+            "Twig",
+            "CSS",
+            "JavaScript",
+            "HTML",
+            "SQL"
+        ],
+        "url": "https://github.com/qhzmn/commercial-appointment-manager",
+        "readme": "commercial-appointment-manager"
+        },
+        {
+        "id": "portfolio",
+        "name": "portfolio",
+        "description": "This website is a personal profile. It presents my projects, skills and experience in the field of IT.",
+        "languages": [
+            "HTML",
+            "JavaScript",
+            "CSS"
+        ],
+        "url": "https://github.com/qhzmn/portfolio",
+        "readme": "portfolio"
+        },
+        {
+        "id": "worldwide-weather-watcher",
+        "name": "worldwide-weather-watcher",
+        "description": "This school project is a weather monitoring solution for the International Agency for Weather Monitoring. It is an Arduino-based embedded system designed to be installed on ships.",
+        "languages": [
+            "Arduino",
+            "C++"
+        ],
+        "url": "https://github.com/qhzmn/worldwide-weather-watcher",
+        "readme": "worldwide-weather-watcher"
+        },
+        {
+        "id": "sudoku-solver",
+        "name": "sudoku-solver",
+        "description": "This project is a Sudoku solver implemented in Python. It uses a logical analysis-based approach to fill in a grid while adhering to the classic rules of the game.",
+        "languages": [
+            "Python"
+        ],
+        "url": "https://github.com/qhzmn/sudoku-solver",
+        "readme": "sudoku-solver"
+        }
+    ],
+
+
+
+    "skills": [
+        {
+        "category": "Web development",
+        "items": [
+            {
+            "name": "HTML",
+            "description": "HTML is the basic language for structuring web pages.",
+            "rating": 4
+            },
+            {
+            "name": "CSS",
+            "description": "CSS allows you to style and format web pages.",
+            "rating": 3
+            },
+            {
+            "name": "JavaScript",
+            "description": "JavaScript adds interactivity and functionality to web pages.",
+            "rating": 3
+            },
+            {
+            "name": "PHP",
+            "description": "PHP is a server-side language used to generate dynamic pages.",
+            "rating": 4
+            },
+            {
+            "name": "Twig",
+            "description": "Twig is a fast and flexible template engine for PHP, often used with Symfony.",
+            "rating": 4
+            }
+        ],
+        "projects": [
+            "commercial-appointment-manager",
+            "portfolio"
+        ],
+        "certifications": [
+        ]
+        },
+        {
+        "category": "Systems / Networks",
+        "items": [
+            {
+            "name": "Cisco Packet Tracer",
+            "description": "Cisco Packet Tracer is a network simulation tool used to configure and test virtual network topologies.",
+            "rating": 4
+            },
+            {
+            "name": "Unix commands",
+            "description": "Using essential commands to navigate, manipulate files, and manage processes in a Unix/Linux environment.",
+            "rating": 2
+            },
+            {
+            "name": "TCP/IP, DNS, DHCP",
+            "description": "Fundamental protocols for network communication: TCP/IP for transport, DNS for name resolution, and DHCP for automatic IP address assignment.",
+            "rating": 3
+            }
+        ],
+        "projects": [
+        ],
+        "certifications": [
+            {
+            "name": "Cisco CCNA1 – Introduction to Networks",
+            "year": 2025
+            }
+        ]
+        },
+        {
+        "category": "Programming / Embedded systems",
+        "items": [
+            {
+            "name": "Python",
+            "description": "A versatile programming language used for web development, automation, data analysis, and artificial intelligence.",
+            "rating": 4
+            },
+            {
+            "name": "SQL",
+            "description": "A query language for managing and manipulating relational databases.",
+            "rating": 5
+            },
+            {
+            "name": "C / C++ / Arduino",
+            "description": "Low-level programming languages for system and embedded development, including Arduino programming.",
+            "rating": 3
+            },
+            {
+            "name": "Assembler language",
+            "description": "A low-level language close to machine code, used for system programming and optimisation.",
+            "rating": 2
+            },
+            {
+            "name": "Shell scripting (Bash, PowerShell)",
+            "description": "Task automation and system management via scripts in Unix (Bash) and Windows (PowerShell).",
+            "rating": 2
+            }
+        ],
+        "projects": [
+            "aes-encryption-decryption",
+            "incremental-backup-tool",
+            "game-of-life",
+            "commercial-appointment-manager",
+            "worldwide-weather-watcher",
+            "sudoku-solver"
+        ],
+        "certifications": [
+        ]
+        },
+        {
+        "category": "Methodologies & Concepts",
+        "items": [
+            {
+            "name": "Agile / Scrum / Kanban",
+            "description": "Agile methodologies for managing and optimising team projects: Agile promotes adaptability and collaboration, Scrum organises work into sprints, Kanban visualises and controls the flow of tasks.",
+            "rating": 3
+            },
+            {
+            "name": "UML (Unified Modeling Language)",
+            "description": "Using UML to model and document the structure and behaviour of a software system.",
+            "rating": 4
+            },
+            {
+            "name": "Software architecture — MVC",
+            "description": "Application design based on the MVC (Model-View-Controller) pattern to separate business logic, presentation, and control.",
+            "rating": 5
+            },
+            {
+            "name": "Programming paradigms — object-oriented",
+            "description": "Understanding of paradigms such as object-oriented programming, with use of classes, inheritance and encapsulation.",
+            "rating": 4
+            }
+        ],
+        "projects": [
+            "commercial-appointment-manager"
+        ],
+        "certifications": [
+        ]
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+

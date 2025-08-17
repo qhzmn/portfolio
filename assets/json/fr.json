@@ -1,0 +1,100 @@
+{
+  "navbar" : {
+    "home" : "Accueil",
+    "about" : "A propos",
+    "projects" : "Projets",
+    "skills" : "Compétences",
+    "contact" : "Contact"
+  },
+  "index" : {
+    "presentation": {
+      "title": "Quentin HAZEMANN",
+      "subtitle": "Étudiant en 2ème année de cycle préparatoire intégré",
+      "specialty": "Spécialité : Informatique"
+    },
+    "homePageTitle": "Page d'accueil",
+    "resume": {
+      "title": "CV",
+      "downloadButton": "Télécharger le PDF"
+    },
+    "follow": {
+      "title": "Me suivre"
+    }
+
+  },
+  "about" : {
+    "aboutPageTitle" : "A propos",
+    "aboutme" : {
+      "title": "À propos de moi",
+      "paragraph1": "Je m'appelle <strong>Quentin Hazemann</strong>, je suis étudiant en au sein de l'école <strong>CESI</strong>, actuellement en première année du cursus <strong>ingénieur informatique</strong>. Passionné par l'informatique, que ce soit en développement web, en systèmes embarqués ou bien en réseaux. Je m'investis dans des projets variés qui me permettent de mettre en pratique mes compétences techniques et d'explorer de nouvelles technologies tout en développant ma capacité à résoudre des problèmes concrets de manière autonome et collaborative.",
+      "paragraph2": "Mon parcours académique m’a permis d’acquérir des compétences solides dans divers domaines, tel qu'en développement logiciel, en gestion de projet agile ainsi qu’en réseau informatique. J'ai notamment passé des certifications comme : <strong>Cisco CCNA1</strong>.",
+      "paragraph3": "Curieux, autonome et rigoureux, je cherche à développer davantage mes compétences en contribuant à des projets qui me permettant d'apprendre chaque jour. Mon objectif professionnel est de devenir un développeur polyvalent."
+    },
+    "aboutschool" : {
+      "title": "À propos de mon école",
+      "paragraph1": "Je poursuis actuellement mon cursus d’ingénieur à <strong>CESI École d’Ingénieurs</strong>, un établissement d’enseignement supérieur reconnu en France pour ses formations d’excellence dans les domaines de l’informatique, de l’ingénierie et du numérique.",
+      "paragraph2": "L’école met l’accent sur l’apprentissage par projets, l’innovation pédagogique et la professionnalisation, notamment à travers des périodes en entreprise et des projets collaboratifs. CESI forme des ingénieurs à la fois compétents techniquement et capables de s’adapter aux enjeux actuels du monde numérique.",
+      "paragraph3": "Grâce à cette formation, je développe des compétences solides en développement logiciel, architecture informatique, gestion de projets, et méthodologies. L’école valorise également l’engagement, l’éthique professionnelle et l’autonomie, des qualités que je m’efforce d’appliquer dans tous mes projets.",
+      "paragraph4": "Pour en savoir plus : <a href='https://www.cesi.fr' target='_blank' rel='noopener'>www.cesi.fr</a>" 
+    }
+      
+  },
+  "projects" : {
+    "projectsPageTitle" : "Mes projets GitHub",
+    "languages" : "Langages : ",
+    "button-github" : "Voir sur GitHub",
+    "button-readme" : "Voir README"
+  },
+  "skills" : {
+      "skillsPageTitle" : "Mes Compétences",
+      "presentation" : "Voici un aperçu de mes compétences principales, acquises au fil de mes expériences professionnelles, projets personnels et formations.",
+      "skills-subtitle" : "Projets liés aux compétences",
+      "certifications-subtitle" : "Certifications"
+    },
+  "contact" : {
+    "contactPageTitle" : "Contact",
+    "form" : {
+      "title" : "Contactez-moi",
+      "name" : "Nom :",
+      "email" : "Email :",
+      "message" : "Message :",
+      "submit" : "Envoyer   "
+    },
+    "other" : {
+      "title" : "Autres moyens de contact"
+    }
+  }, 
+  "legal" : {
+    "legalPageTitle" : "Mentions légales",
+    "publisher" : {
+      "title" : "Éditeur",
+      "lastName" : "<strong>Nom :</strong> HAZEMANN",
+      "firstName" : "<strong>Prénom :</strong> Quentin",
+      "email" : "<strong>Email : </strong><a href='mailto:quentin.hazemann@viacesi.fr'>quentin.hazemann@viacesi.fr</a>"
+    },
+    "host" : {
+      "title" : "Hébergeur",
+      "name" : "<strong>Nom de l'hébergeur :</strong> GitHub, Inc.",
+      "address" : "<strong>Adresse :</strong> 88 Colin P. Kelly Jr St, San Francisco, CA 94107, USA",
+      "webSite" : "<strong>Site web :</strong> <a href='https://pages.github.com' target='_blank'>https://pages.github.com</a>"
+    },
+    "property" : {
+      "title" : "Propriété Intellectuelle",
+      "paragraph1" : "Tous les contenus présents sur ce site (textes, images, logos, etc.) sont protégés par le droit d'auteur et ne peuvent être reproduits sans autorisation préalable."
+    },
+    "data" : {
+      "title" : "Données Personnelles",
+      "paragraph1" : "Aucune données personnelles n'est enregistré."
+    }
+
+
+
+  },
+  
+  
+  "footer" : {
+    "right": "&copy; 2025 Quentin HAZEMANN. Tous droits réservés.",
+    "legal": "Mentions légales"
+  }
+}
+

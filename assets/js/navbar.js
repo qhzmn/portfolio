@@ -34,7 +34,32 @@ links.forEach(link => {
             sidenav.setAttribute("aria-hidden", "true");
         }
     });
-})();
+})
+;
+
+
+
+function initializeLanguage() {
+  // 1. Check if a language preference is already saved in localStorage.
+  let langue = localStorage.getItem('mainLanguage');
+
+  // 2. If no language is found, use the user's browser language.
+  //    If the browser language isn't available, default to 'fr'.
+  if (!langue) {
+    langue = navigator.language.substring(0, 2) || 'fr';
+    localStorage.setItem('mainLanguage', langue);
+  }
+
+  // At this point, the 'langue' variable holds the correct language preference.
+  // You would then call a function here to update the content on your page
+  // based on this 'langue' value.
+  // For example:
+  // updatePageContent(langue);
+  console.log('Langue actuelle :', langue);
+}
+
+
+
 
 
 
