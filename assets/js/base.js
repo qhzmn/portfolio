@@ -29,21 +29,32 @@ function includeHTML(id, url) {
 
 async function initializePage() {
     try {
-        // Charger les CSS
-        await loadCSS("assets/css/navbar.css");
-        await loadCSS("assets/css/footer.css");
 
-        // Inclure le HTML du header et footer
-        await includeHTML("header", "navbar.html");
-        await includeHTML("footer", "footer.html");
-
+        const headerFooter = Promise.all([
+            includeHTML("header", "navbar.html"),
+            includeHTML("footer", "footer.html")
+        ]);
+        await headerFooter;
+        await Promise.all([
+            loadCSS("assets/css/navbar.css"),
+            loadCSS("assets/css/footer.css"),
+            loadCSS("assets/css/section.css"),
+        ]);
         // Charger le JS de la navbar (après que le HTML soit injecté)
-        await loadScript("assets/js/navbar.js");
-        await loadScript("assets/js/language.js");
+        await Promise.all([
+            loadScript("assets/js/navbar.js"),
+            loadScript("assets/js/language.js"),
+        ]);
+        
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("content").style.display = "block";
+        
 
+        
+        
 
         // Forcer le mode clair après chargement
-        forceLightMode();
+        //forceLightMode();
 
     } catch (error) {
         console.error("Erreur lors du chargement :", error);

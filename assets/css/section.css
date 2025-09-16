@@ -1,9 +1,9 @@
 /*---MAIN---*/
-
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
 }
 
 .cv-container hr, .suivre-container hr, .formulaire-container hr, .repo hr, .container-competence hr, .about-container hr, .school-container hr, .contact-container hr{
-    border: none;
+  border: none;
   height: 3px;
   background-color: #ccc;
   margin: 40px auto;
@@ -33,7 +33,6 @@ h1 {
   background-color: #ff6700;
 
 }
-
 
 
 /*---index.html---*/
