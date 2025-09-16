@@ -45,8 +45,11 @@ function loadProjects(lang) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  loadProjects(localStorage.getItem('mainLanguage') || 'fr');
+  console.log("execution projet page");
+  loadProjects(localStorage.getItem('mainLanguage') || 'en');
+  initPage();
 });
+
 
 // Écoute un événement envoyé par language.js
 window.addEventListener("languageChange", (e) => {

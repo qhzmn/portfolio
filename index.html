@@ -1,16 +1,33 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quentin HAZEMANN - Portfolio</title>
-
-  
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/section.css" />
 </head>
+
 <body>
-  <div id="loader">Chargement...</div>
-  <div id="content" style="display:none;">
-  <div id="header"></div>
+  <nav class="navbar">
+    <button id="openBtn" aria-label="Open menu">
+      ☰
+    </button>
+    <ul id="mySidenav" class="nav-links">
+      <button id="closeBtn" class="close" aria-label="Close menu">&times;</button>
+      <li><a href="index.html" class="nav-link" data-i18n="home"></a></li>
+      <li><a href="about.html" class="nav-link" data-i18n="about"></a></li>
+      <li><a href="projects.html" class="nav-link" data-i18n="projects"></a></li>
+      <li><a href="skills.html" class="nav-link" data-i18n="skills"></a></li>
+      <li><a href="contact.html" class="nav-link" data-i18n="contact"></a></li>
+    </ul>
+    <div class="lang-switch">
+      <button id="lang-fr"><img src="assets/document/french_language.png" alt="Flag of the France">FR</button>
+      <button id="lang-en"><img src="assets/document/english_language.png" alt="Flag of the UK/USA">EN</button>
+    </div>
+  </nav>
+
   <main>
     <div class="presentation">
       <h1 data-i18n="presentation.title"></h1>
@@ -21,21 +38,26 @@
     <div class="cv-container">
       <h2 data-i18n="resume.title"></h2>
       <hr>
-      <img src="assets/document/CV_v0.jpg" alt="cv">
-      <a href="assets/document/CV_v0.pdf" download>
+      <img src="assets/document/CV_v0_fr.jpg" alt="cv">
+      <a href="assets/document/CV_v0_fr.pdf" download>
         <button class="bouton-container" data-i18n="resume.downloadButton"></button>
       </a>
     </div>
-    <div class="suivre-container">
+    <div class="follow-container">
       <h2 data-i18n="follow.title"></h2>
       <hr>
       <a href="https://github.com/qhzmn" target="_blank">GitHub</a>
       <a href="https://linkedin.com/in/quentin-hazemann" target="_blank">LinkedIn</a>
     </div>
   </main>
-  <div id="footer"></div>
-  </div>
 
-  <script src="assets/js/base.js"></script>
+  <footer>
+    <p data-i18n="right"></p>
+    <a href="legal.html" data-i18n="legal"></a>
+  </footer>
+
+  <script src="assets/js/language.js"></script>
+  <script src="assets/js/navbar.js"></script>
 </body>
+
 </html>

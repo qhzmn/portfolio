@@ -1,23 +1,26 @@
-// Fonction pour récupérer la langue
+// Function to retrieve the language
 function getLang() {
-    return localStorage.getItem('mainLanguage') || 'fr';
+    if (localStorage.getItem('mainLanguage')){
+        return(localStorage.getItem('mainLanguage'))
+    }
+    return navigator.language || 'en';
 }
 
-// Fonction pour charger le fichier JSON de la langue
+// Function to load the JSON file for the langueag
 async function loadTranslations(lang) {
     try {
         const response = await fetch(`assets/json/${lang}.json`);
         if (!response.ok) {
-            throw new Error(`Le fichier de traduction pour ${lang} n'a pas pu être chargé.`);
+            throw new Error(`The file for ${lang} could not be loaded.`);
         }
         return await response.json();
     } catch (error) {
-        console.error("Erreur lors du chargement des traductions :", error);
+        console.error("Error loading translations :", error);
         return {};
     }
 }
 
-// Fonction pour mettre à jour le contenu HTML
+// Function to update HTML content
 function updateContent(translations) {
     for (const sectionKey in translations) {
         if (translations.hasOwnProperty(sectionKey)) {
@@ -32,14 +35,16 @@ function updateContent(translations) {
                 const value = key.split('.').reduce((obj, part) => obj ? obj[part] : null, sectionTranslations);
 
                 if (value) {
-                    element.innerHTML = value;                }
+                    element.innerHTML = value;
+                }
             });
         }
     }
 }
 
-// Fonction d'initialisation principale
+// Fonction main
 async function initPage() {
+    console.log("execution init page");
     const lang = getLang();
     if (lang=='en'){
         boutonEn.classList.add("active");
@@ -54,27 +59,27 @@ async function initPage() {
     updateContent(translations);
 }
 
-// Sélection des boutons
+
+// Select boutons
 const boutonFr = document.getElementById('lang-fr');
 const boutonEn = document.getElementById('lang-en');
 
-// Ajout des écouteurs d'événements
+// Add events
 if (boutonFr) {
     boutonFr.addEventListener('click', async () => {
     localStorage.setItem('mainLanguage', 'fr');
     window.dispatchEvent(new CustomEvent('languageChange', { detail: 'fr' }));
-    await initPage();
-});
-
+    initPage();
+    });
 }
 if (boutonEn) {
     boutonEn.addEventListener('click', async () => {
     localStorage.setItem('mainLanguage', 'en');
     window.dispatchEvent(new CustomEvent('languageChange', { detail: 'en' }));
-    await initPage();
-});
-
+    initPage();
+    });
 }
 
-// Lancement de l'initialisation au chargement de la page
-initPage();
+document.addEventListener("DOMContentLoaded", () => {
+    initPage();
+});

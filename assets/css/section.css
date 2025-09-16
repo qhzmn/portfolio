@@ -1,9 +1,9 @@
-/*---MAIN---*/
+/* === MAIN === */
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
 }
 
 h1 {
@@ -11,8 +11,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
-
-.cv-container, .suivre-container, .formulaire-container, .repo, .container-competence, .container-ml, .about-container, .school-container, .contact-container{
+.cv-container, .follow-container, .form-container, .repo, .container-competence, .container-ln, .about-container, .school-container, .contact-container{
   text-align: center;
   margin: 40px auto;
   padding: 10px;
@@ -22,40 +21,17 @@ h1 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.cv-container hr, .suivre-container hr, .formulaire-container hr, .repo hr, .container-competence hr, .about-container hr, .school-container hr, .contact-container hr{
+.cv-container hr, .follow-container hr, .form-container hr, .repo hr, .container-competence hr, .about-container hr, .school-container hr, .contact-container hr{
   border: none;
   height: 3px;
   background-color: #ccc;
   margin: 40px auto;
   width: 95%;
 }
-.cv-container:hover hr, .suivre-container:hover hr, .formulaire-container:hover hr, .repo:hover hr, .container-competence:hover hr, .about-container:hover hr, .school-container:hover hr, .contact-container:hover hr{
+
+.cv-container:hover hr, .follow-container:hover hr, .form-container:hover hr, .repo:hover hr, .container-competence:hover hr, .about-container:hover hr, .school-container:hover hr, .contact-container:hover hr{
   background-color: #ff6700;
 
-}
-
-
-/*---index.html---*/
-
-.presentation{
-    color: white;
-    text-align: center;
-    background-color: black;
-    display: block;
-    padding: 30px;
-}
-
-.cv-container img {
-  width: 50%;
-  height: auto;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
-
-.cv-container a {
-  display: block;
-  margin: 10px 0;
 }
 
 .cv-container a button, .button-project, .button-project-readme, button[type="submit"]  {
@@ -80,41 +56,61 @@ h1 {
   color:rgb(255, 255, 255);
 }
 
-.suivre-container a{
-    display: block;
-    margin: 10px auto;
-    color: #005f87;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-    width: fit-content;
+
+/* === index === */
+.presentation{
+  color: white;
+  text-align: center;
+  background-color: black;
+  display: block;
+  padding: 30px;
 }
 
-.suivre-container a:hover {
+.cv-container img {
+  width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.cv-container a {
+  display: block;
+  margin: 10px 0;
+}
+
+.follow-container a{
+  display: block;
+  margin: 10px auto;
+  color: #005f87;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
   transition: all 0.3s ease;
-    border-radius: 25px;
-    color: black;
-    background-color: #f0f0f0;
+  width: fit-content;
+}
+
+.follow-container a:hover {
+  transition: all 0.3s ease;
+  border-radius: 25px;
+  color: black;
+  background-color: #f0f0f0;
 }
 
 
-
-/*---about.html---*/
-
+/* === about === */
 .about-container p, .school-container p, .school-container p a{
   color: #000;
 }
 
 
-
-/*---projects.html---*/
-
+/* === projects === */
 .repo h2 a {
   color: #000000;
   text-decoration: none;
 }
+
 .repo p{
   margin-left: 5%;
   text-align: left;
@@ -123,18 +119,17 @@ h1 {
 
 .button a{
   text-decoration: none;
-    color: rgb(221, 126, 126);
+  color: rgb(221, 126, 126);
 }
 
 
-
-/*---Skills.html---*/
-
+/* === skills === */
 .presentation_skills{
-    text-align: center;
+  text-align: center;
 }
+
 .presentation_skills p{
-    color: #000;
+  color: #000;
 }
 
 .projects-list {
@@ -240,54 +235,53 @@ h1 {
 }
 
 
-
-/*---contact.html---*/
-
+/* === contact === */
 .form-group {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .form-group textarea {
-    height: 120px;
-    resize: vertical;
+  height: 120px;
+  resize: vertical;
 }
 
 
-
-/*---legal.html---*/
-
-.container-ml h1{
+/* === legal === */
+.container-ln h1{
     text-align: center;
     margin-bottom: 20px;
 }
+
 .legal-section h2 {
     color: #555;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
+
 .legal-section p, .legal-section p span a, .contact-container p, .contact-container p span a {
     text-decoration: none;
     color: #000;
     line-height: 1.6;
     font-size: 16px;
 }
+
 .legal-section p span, .contact-container p span {
     display: block;
     margin-bottom: 5px;

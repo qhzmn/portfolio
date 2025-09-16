@@ -1,40 +1,54 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quentin HAZEMANN - Portfolio</title>
   <link rel="stylesheet" href="assets/css/modal.css" />
-
-
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/section.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.min.css">
-  
-
 </head>
 <body>
-    <div id="header"></div>
+  <nav class="navbar">
+    <button id="openBtn" aria-label="Open menu">
+      ☰
+    </button>
+    <ul id="mySidenav" class="nav-links">
+      <button id="closeBtn" class="close" aria-label="Close menu">&times;</button>
+      <li><a href="index.html" class="nav-link" data-i18n="home"></a></li>
+      <li><a href="about.html" class="nav-link" data-i18n="about"></a></li>
+      <li><a href="projects.html" class="nav-link" data-i18n="projects"></a></li>
+      <li><a href="skills.html" class="nav-link" data-i18n="skills"></a></li>
+      <li><a href="contact.html" class="nav-link" data-i18n="contact"></a></li>
+    </ul>
+    <div class="lang-switch">
+      <button id="lang-fr"><img src="assets/document/french_language.png" alt="Flag of the France">FR</button>
+      <button id="lang-en"><img src="assets/document/english_language.png" alt="Flag of the UK/USA">EN</button>
+    </div>
+  </nav>
+
   <main>
-  <h1 data-i18n="projectsPageTitle"></h1>
-<div id="projects-all"></div>
+    <h1 data-i18n="projectsPageTitle"></h1>
+    <div id="projects-all"></div>
+    <div id="readme-modal" class="hidden">
+      <div class="modal-content">
+        <span id="close-modal" class="close">&times;</span>
+        <div id="readme-content" class="markdown-body"></div>
+      </div>
+    </div>
+  </main>
 
+  <footer>
+    <p data-i18n="right"></p>
+    <a href="legal.html" data-i18n="legal"></a>
+  </footer>
 
-
-  <div id="readme-modal" class="hidden">
-  <div class="modal-content">
-    <span id="close-modal" class="close">&times;</span>
-    <div id="readme-content" class="markdown-body"></div>
-  </div>
-</div>
-
-</main>
-  <div id="footer"></div>
-
-  <script src="assets/js/base.js"></script>
-    <script src="assets/js/modalProjects.js"></script>
-
+  <script src="assets/js/navbar.js"></script>
   <script src="assets/js/projects.js"></script>
-
-
+  <script src="assets/js/modalProjects.js"></script>
+  <script src="assets/js/language.js"></script>
+  
 </body>
+
 </html>

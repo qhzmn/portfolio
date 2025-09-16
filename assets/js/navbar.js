@@ -1,29 +1,35 @@
-const links = document.querySelectorAll(".nav-link");
-let currentPage = window.location.pathname.split("/").pop();
+document.addEventListener("DOMContentLoaded", () => {
 
-if (currentPage === "") {
-    currentPage = "index.html";
-}
-links.forEach(link => { 
-    if (link.getAttribute("href") === currentPage) { 
-        link.classList.add("active");
+// activate the path used
+    const links = document.querySelectorAll(".nav-link");
+    let currentPage = window.location.pathname.split("/").pop();
+    if (currentPage === "") {
+        currentPage = "index.html";
     }
-  
+    links.forEach(link => { 
+        if (link.getAttribute("href") === currentPage) { 
+            link.classList.add("active");
+        }
+    });
+
+    initBurgerMenu();
+
 });
 
 function initBurgerMenu() {
+    console.log("execution menu page");
     console.log('burger charge');
     const sidenav = document.getElementById("mySidenav");
     const openBtn = document.getElementById("openBtn");
     const closeBtn = document.getElementById("closeBtn");
-    const mainContent = document.querySelector("main"); // conteneur hors menu
+    const mainContent = document.querySelector("main");
 
 
     function openMenu() {
-    sidenav.classList.add("active");
-    sidenav.setAttribute("aria-hidden", "false");
-    document.body.style.overflow = "hidden"; // empêche de scroller en arrière-plan
-    mainContent.style.pointerEvents = "none"; // bloque tous les clics hors menu
+        sidenav.classList.add("active");
+        sidenav.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden"; // empêche de scroller en arrière-plan
+        mainContent.style.pointerEvents = "none"; // bloque tous les clics hors menu
     }
 
     // Fonction pour fermer le menu
@@ -46,11 +52,9 @@ function initBurgerMenu() {
 
     // Clic à l’extérieur du menu
     document.addEventListener("click", function (event) {
-        if (
-        sidenav.classList.contains("active") &&
-        !sidenav.contains(event.target) &&
-        event.target !== openBtn
-        ) {
+        if (sidenav.classList.contains("active") &&
+            !sidenav.contains(event.target) &&
+            event.target !== openBtn){
         closeMenu();
         }
     });
@@ -62,33 +66,4 @@ function initBurgerMenu() {
         }
     });
 }
-
-
-initBurgerMenu();
-
-
-function initializeLanguage() {
-  // 1. Check if a language preference is already saved in localStorage.
-  let langue = localStorage.getItem('mainLanguage');
-
-  // 2. If no language is found, use the user's browser language.
-  //    If the browser language isn't available, default to 'fr'.
-  if (!langue) {
-    langue = navigator.language.substring(0, 2) || 'fr';
-    localStorage.setItem('mainLanguage', langue);
-  }
-
-  // At this point, the 'langue' variable holds the correct language preference.
-  // You would then call a function here to update the content on your page
-  // based on this 'langue' value.
-  // For example:
-  // updatePageContent(langue);
-  console.log('Langue actuelle :', langue);
-}
-
-
-
-
-
-
 

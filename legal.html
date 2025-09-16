@@ -1,47 +1,70 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quentin HAZEMANN - Portfolio</title>
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/section.css" />
 </head>
 <body>
-  <div id="header"></div>
+  <nav class="navbar">
+    <button id="openBtn" aria-label="Open menu">
+      ☰
+    </button>
+    <ul id="mySidenav" class="nav-links">
+      <button id="closeBtn" class="close" aria-label="Close menu">&times;</button>
+      <li><a href="index.html" class="nav-link" data-i18n="home"></a></li>
+      <li><a href="about.html" class="nav-link" data-i18n="about"></a></li>
+      <li><a href="projects.html" class="nav-link" data-i18n="projects"></a></li>
+      <li><a href="skills.html" class="nav-link" data-i18n="skills"></a></li>
+      <li><a href="contact.html" class="nav-link" data-i18n="contact"></a></li>
+    </ul>
+    <div class="lang-switch">
+      <button id="lang-fr"><img src="assets/document/french_language.png" alt="Flag of the France">FR</button>
+      <button id="lang-en"><img src="assets/document/english_language.png" alt="Flag of the UK/USA">EN</button>
+    </div>
+  </nav>
   <main>
-<div class="container-ml">
-    <h1 data-i18n="legalPageTitle"></h1>
-    <section class="legal-section">
+    <div class="container-ln">
+      <h1 data-i18n="legalPageTitle"></h1>
+      <section class="legal-section">
         <h2 data-i18n="publisher.title"></h2>
         <p>
-            <span data-i18n="publisher.lastName"></span><br>
-            <span data-i18n="publisher.firstName"></span><br>
-            <span data-i18n="publisher.email"></span>
+          <span data-i18n="publisher.lastName"></span><br>
+          <span data-i18n="publisher.firstName"></span><br>
+          <span data-i18n="publisher.email"></span>
         </p>
-    </section>
-    
-    <section class="legal-section">
+      </section>
+      
+      <section class="legal-section">
         <h2 data-i18n="host.title"></h2>
         <p>
-            <span data-i18n="host.name"></span><br>
-            <span data-i18n="host.address"></span><br>
-            <span data-i18n="host.webSite"></span><br>
+          <span data-i18n="host.name"></span><br>
+          <span data-i18n="host.address"></span><br>
+          <span data-i18n="host.webSite"></span><br>
         </p>
-    </section>
-    <section class="legal-section">
+      </section>
+      <section class="legal-section">
         <h2 data-i18n="property.title"></h2>
         <p>
-            <span data-i18n="property.paragraph1"></span>
+          <span data-i18n="property.paragraph1"></span>
         </p>
-    </section>
-    <section class="legal-section">
+      </section>
+      <section class="legal-section">
         <h2 data-i18n="data.title"></h2>
         <p>
-            <span data-i18n="data.paragraph1"></span>
+          <span data-i18n="data.paragraph1"></span>
         </p>
-    </section>
-</div>
-</main>
-  <div id="footer"></div>
-  <script src="assets/js/base.js"></script>
+      </section>
+   </div>
+  </main>
+
+  <footer>
+    <p data-i18n="right"></p>
+    <a href="legal.html" data-i18n="legal"></a>
+  </footer>
+  <script src="assets/js/navbar.js"></script>
+  <script src="assets/js/language.js"></script>
 </body>
 </html>

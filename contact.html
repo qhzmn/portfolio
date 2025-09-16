@@ -1,52 +1,69 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
   <title>Quentin HAZEMANN - Portfolio</title>
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/section.css" />
 </head>
 <body>
-  <div id="header"></div>
+  <nav class="navbar">
+    <button id="openBtn" aria-label="Open menu">
+      ☰
+    </button>
+    <ul id="mySidenav" class="nav-links">
+      <button id="closeBtn" class="close" aria-label="Close menu">&times;</button>
+      <li><a href="index.html" class="nav-link" data-i18n="home"></a></li>
+      <li><a href="about.html" class="nav-link" data-i18n="about"></a></li>
+      <li><a href="projects.html" class="nav-link" data-i18n="projects"></a></li>
+      <li><a href="skills.html" class="nav-link" data-i18n="skills"></a></li>
+      <li><a href="contact.html" class="nav-link" data-i18n="contact"></a></li>
+    </ul>
+    <div class="lang-switch">
+      <button id="lang-fr"><img src="assets/document/french_language.png" alt="Flag of the France">FR</button>
+      <button id="lang-en"><img src="assets/document/english_language.png" alt="Flag of the UK/USA">EN</button>
+    </div>
+  </nav>
+
   <main>
-  <h1 data-i18n="title"></h1>
-      
-  <div class="formulaire-container">
-  <h2 data-i18n="form.title"></h2>
-  <hr>
-  <form class="form-group" id="contact-form">
-      <label data-i18n="form.name" for="name"></label><br />
-      <input type="text" id="name" name="name" required /><br /><br />
+    <h1 data-i18n="title"></h1>  
+    <div class="form-container">
+      <h2 data-i18n="form.title"></h2>
+      <hr>
+      <form class="form-group" id="contact-form">
+        <label data-i18n="form.name" for="name"></label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
 
-      <label data-i18n="form.email" for="email"></label><br />
-      <input type="email" id="email" name="email" required /><br /><br />
+        <label data-i18n="form.email" for="email"></label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
 
-      <label data-i18n="form.message" for="message"></label><br />
-      <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+        <label data-i18n="form.message" for="message"></label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
 
-      <button data-i18n="form.submit" type="submit"></button>
-    </form>
-    <div id="status"></div>
-  </div>
-  <div class="contact-container">
-    <h2 data-i18n="other.title"></h2>
-    <hr>
-    <p>
-      <span><strong>Email :</strong> <a href="mailto:quentin.hazemann@viacesi.fr">quentin.hazemann@viacesi.fr</a></span><br>
-      <span><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/quentin-hazemann" target="_blank">linkedin.com/in/quentin-hazemann</a></span><br>
-      <span><strong>GitHub :</strong> <a href="https://github.com/qhzmn" target="_blank">github.com/qhzmn</a></span><br>
+        <button data-i18n="form.submit" type="submit"></button>
+      </form>
+      <div id="status"></div>
+    </div>
+    <div class="contact-container">
+      <h2 data-i18n="other.title"></h2>
+      <hr>
+      <p>
+        <span><strong>Email :</strong> <a href="mailto:quentin.hazemann@viacesi.fr">quentin.hazemann@viacesi.fr</a></span><br>
+        <span><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/quentin-hazemann" target="_blank">linkedin.com/in/quentin-hazemann</a></span><br>
+        <span><strong>GitHub :</strong> <a href="https://github.com/qhzmn" target="_blank">github.com/qhzmn</a></span><br>
       </p>
-  </div>
-
-      
-      
+    </div>
   </main>
-  <div id="footer"></div>
 
-  <script src="assets/js/base.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <footer>
+    <p data-i18n="right"></p>
+    <a href="legal.html" data-i18n="legal"></a>
+  </footer>
+
+  <script src="assets/js/language.js"></script>
+  <script src="assets/js/navbar.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script src="assets/js/email.js" defer></script>
 </body>
 </html> 

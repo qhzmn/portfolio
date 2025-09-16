@@ -72,10 +72,13 @@ function loadSkills(lang) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  loadSkills(localStorage.getItem('mainLanguage') || 'fr');
+  loadSkills(localStorage.getItem('mainLanguage') || 'en');
+  initPage();
 });
 
 // Écoute un événement envoyé par language.js
 window.addEventListener("languageChange", (e) => {
   loadSkills(e.detail);
 });
+
+
