@@ -4,7 +4,7 @@ function loadProjects(lang) {
     ? "assets/json/dataEn.json" 
     : "assets/json/dataFr.json";
 
-    fetch(file)
+    return fetch(file)
     .then(res => res.json())
     .then(data => {
         const projets = data.projects;
@@ -44,9 +44,9 @@ function loadProjects(lang) {
 
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
   console.log("execution projet page");
-  loadProjects(localStorage.getItem('mainLanguage') || 'en');
+  await loadProjects(localStorage.getItem('mainLanguage') || 'en');
   initPage();
 });
 

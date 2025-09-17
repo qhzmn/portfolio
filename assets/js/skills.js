@@ -3,7 +3,7 @@ function loadSkills(lang) {
     ? "assets/json/dataEn.json" 
     : "assets/json/dataFr.json";
 
-  fetch(file)
+  return fetch(file)
     .then(res => res.json())
     .then(data => { 
       const container = document.getElementById("skills-all");
@@ -71,8 +71,8 @@ function loadSkills(lang) {
     .catch(err => console.error("Erreur lors du chargement des compétences :", err));
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  loadSkills(localStorage.getItem('mainLanguage') || 'en');
+document.addEventListener("DOMContentLoaded", async () => {
+  await loadSkills(localStorage.getItem('mainLanguage') || 'en');
   initPage();
 });
 
