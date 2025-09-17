@@ -26,7 +26,15 @@ function loadSkills(lang) {
         const ulSkills = document.createElement("ul");
         ulSkills.classList.add("skills-list");
         skill.items.forEach(item => {
-          const stars = '⭐'.repeat(item.rating) + ' ☆'.repeat(5-item.rating);
+          let stars = '';
+          if ((typeof item.rating)=='number'){
+            stars = '⭐'.repeat(item.rating) + ' ☆'.repeat(5-item.rating);
+          }else{
+            stars = item.rating;
+          }
+
+
+          //const stars = '⭐'.repeat(item.rating) + ' ☆'.repeat(5-item.rating);
           ulSkills.innerHTML += `
             <li>
               <button class="skill-btn" data-desc="${item.description}">${item.name}</button>

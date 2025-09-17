@@ -48,7 +48,7 @@
         {
         "id": "portfolio",
         "name": "portfolio",
-        "description": "This website is a personal profile. It presents my projects, skills and experience in the field of IT.",
+        "description": "This website is a personal profile. It presents my projects, skills and experience in the field of IT. It uses a database in JSON format.",
         "languages": [
             "HTML",
             "JavaScript",
@@ -79,8 +79,6 @@
         "readme": "sudoku-solver"
         }
     ],
-
-
 
     "skills": [
         {
@@ -216,16 +214,83 @@
         ],
         "certifications": [
         ]
+        },
+        {
+        "category": "French",
+        "items": [
+            {
+            "name": "Français",
+            "description": "Native language, full proficiency in writing and speaking.",
+            "rating": "Native"
+            },
+            {
+            "name": "English",
+            "description": "Professional working proficiency at upper-intermediate level, able to converse and write in a professional context.",
+            "rating": "B1-B2"
+            },
+            {
+            "name": "Spanish",
+            "description": "Basic skills, simple comprehension and expression.",
+            "rating": "A2"
+            }
+            
+        ],
+        "projects": [
+        ],
+        "certifications": [
+            {
+            "name": "EFSET English Certificate – B2 (Council of Europe Level)",
+            "year": 2025
+            },
+            {
+            "name": "Voltaire French Language Test – 74%",
+            "year": 2025
+            }
+        ]
+        },
+        {
+        "category": "Soft Skills",
+        "items": [
+            {
+            "name": "Communication",
+            "description": "Ability to clearly explain complex ideas to diverse audiences.",
+            "rating": ""
+            },
+            {
+            "name": "Teamwork",
+            "description": "Experience in collaborative and multidisciplinary projects, fostering cooperation and collective efficiency.",
+            "rating": ""
+            },
+            {
+            "name": "Problem Solving",
+            "description": "Ability to quickly identify obstacles and propose effective and creative solutions.",
+            "rating": ""
+            },
+            {
+            "name": "Adaptability",
+            "description": "Ability to quickly adjust to new environments and unexpected situations.",
+            "rating": ""
+            },
+            {
+            "name": "Time Management",
+            "description": "Skill in prioritizing tasks and meeting deadlines in various contexts.",
+            "rating": ""
+            },
+            {
+            "name": "Leadership",
+            "description": "Ability to motivate and guide a team to achieve common goals.",
+            "rating": ""
+            },
+            {
+            "name": "Critical Thinking",
+            "description": "Ability to analyze information and make informed decisions.",
+            "rating": ""
+            }
+        ],
+        "projects": [
+        ],
+        "certifications": [
+        ]
         }
     ]
 }
-
-
-
-
-
-
-
-
-
-

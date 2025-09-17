@@ -48,7 +48,7 @@
         {
         "id": "portfolio",
         "name": "portfolio",
-        "description": "Ce site est un portfolio personnel. Il présente mes projets, compétences et expériences en informatique.",
+        "description": "Ce site est un portfolio personnel. Il présente mes projets, compétences et expériences en informatique. Il utilise une base de données au format JSON.",
         "languages": [
             "HTML",
             "JavaScript",
@@ -79,8 +79,6 @@
         "readme": "sudoku-solver"
         }
     ],
-
-
 
     "skills": [
         {
@@ -116,7 +114,7 @@
             "commercial-appointment-manager",
             "portfolio"
         ],
-        "certifications": [
+        "certifications": [       
         ]
         },
         {
@@ -216,16 +214,83 @@
         ],
         "certifications": [
         ]
+        },
+        {
+        "category": "Langues",
+        "items": [
+            {
+            "name": "Français",
+            "description": "Langue maternelle, maîtrise complète à l’écrit et à l’oral.",
+            "rating": "Langue natale"
+            },
+            {
+            "name": "Anglais",
+            "description": "Compétence professionnelle limitée à intermédiaire supérieur, capable de converser et rédiger dans un contexte professionnel.",
+            "rating": "B1-B2"
+            },
+            {
+            "name": "Espagnol",
+            "description": "Compétences de base, compréhension et expression simples.",
+            "rating": "A2"
+            }
+            
+        ],
+        "projects": [
+        ],
+        "certifications": [
+            {
+            "name": "Certificat EFSET – Anglais B2 (CECRL)",
+            "year": 2025
+            },
+            {
+            "name": "Test de français Voltaire – 74%",
+            "year": 2025
+            }
+        ]
+        },
+        {
+        "category": "Compétences douces",
+        "items": [
+            {
+            "name": "Communication",
+            "description": "Capacité à expliquer clairement des idées complexes à différents publics",
+            "rating": ""
+            },
+            {
+            "name": "Travail en équipe",
+            "description": "Expérience dans des projets collaboratifs et multidisciplinaires, facilitant la coopération et l’efficacité collective",
+            "rating": ""
+            },
+            {
+                "name": "Résolution de problèmes",
+                "description": "Aptitude à identifier rapidement les obstacles et proposer des solutions efficaces et créatives",
+                "rating": ""
+            },
+            {
+                "name": "Adaptabilité",
+                "description": "Capacité à s’ajuster rapidement à de nouveaux environnements et situations imprévues",
+                "rating": ""
+            },
+            {
+                "name": "Gestion du temps",
+                "description": "Savoir prioriser les tâches et respecter les délais dans des contextes variés",
+                "rating": ""
+            },
+            {
+                "name": "Leadership",
+                "description": "Capacité à motiver et guider une équipe pour atteindre des objectifs communs",
+                "rating": ""
+            },
+            {
+                "name": "Esprit critique",
+                "description": "Aptitude à analyser l’information et à prendre des décisions éclairées",
+                "rating": ""
+            }
+        ],
+        "projects": [
+        ],
+        "certifications": [
+        ]
         }
     ]
 }
-
-
-
-
-
-
-
-
-
-
